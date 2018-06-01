@@ -1,8 +1,8 @@
-# debug_unreachable
+# new_debug_unreachable
 
 > unreachable!() in debug, std::intrinsics::unreachable() in release.
 
-## [Documentation](https://crates.fyi/crates/debug_unreachable/0.1.1)
+## [Documentation](https://docs.rs/new_debug_unreachable)
 
 ## Usage
 
@@ -11,14 +11,15 @@ with the rest of your dependencies:
 
 ```toml
 [dependencies]
-debug_unreachable = "0.1"
+new_debug_unreachable = "1.0"
 ```
 
 ## Author
 
-[Jonathan Reem](https://medium.com/@jreem) is the primary author and maintainer of debug-unreachable.
+[Jonathan Reem](https://medium.com/@jreem) is the original author of debug-unreachable.
+
+[Matt Brubeck](https://limpet.net/mbrubeck/) is the maintainer of this fork.
 
 ## License
 
 MIT
-
