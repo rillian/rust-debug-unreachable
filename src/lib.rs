@@ -4,6 +4,8 @@
 
 //! `panic!()` in debug builds, optimization hint in release.
 
+#[doc(hidden)] pub mod _internal { pub use core::hint::unreachable_unchecked; }
+
 #[macro_export]
 /// `panic!()` in debug builds, optimization hint in release.
 macro_rules! debug_unreachable {
@@ -12,7 +14,7 @@ macro_rules! debug_unreachable {
         if cfg!(debug_assertions) {
             panic!($e)
         } else {
-            core::hint::unreachable_unchecked()
+            $crate::_internal::unreachable_unchecked()
         }
     }
 }
