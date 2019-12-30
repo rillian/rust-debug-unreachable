@@ -1,5 +1,5 @@
 [package]
-
+edition = "2018"
 name = "new_debug_unreachable"
 version = "1.0.3"
 authors = ["Matt Brubeck <mbrubeck@limpet.net>", "Jonathan Reem <jonathan.reem@gmail.com>"]
