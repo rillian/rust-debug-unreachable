@@ -16,10 +16,10 @@ with the rest of your dependencies:
 new_debug_unreachable = "1.0"
 ```
 
-In your Rust code, the library name is still `debug_unreachable`:
+In your Rust code you can add debug-only assertions like this:
 
 ```rust
-use debug_unreachable::debug_unreachable;
+use new_debug_unreachable::debug_unreachable;
 
 fn main() {
     if 0 > 100 {

@@ -12,7 +12,7 @@
 /// Example:
 ///
 /// ```
-/// use debug_unreachable::debug_unreachable;
+/// use new_debug_unreachable::debug_unreachable;
 ///
 /// fn main() {
 ///     if 0 > 100 {
@@ -33,4 +33,3 @@ macro_rules! debug_unreachable {
         }
     }
 }
-

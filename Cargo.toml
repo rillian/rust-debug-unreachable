@@ -8,7 +8,3 @@ description = "panic in debug, intrinsics::unreachable() in release (fork of deb
 documentation = "https://docs.rs/new_debug_unreachable"
 readme = "README.md"
 license = "MIT"
-
-[lib]
-name = "debug_unreachable"
-path = "src/lib.rs"
